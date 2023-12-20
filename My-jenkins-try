@@ -17,37 +17,37 @@ pipeline {
     stage('step 3') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
    stage('step 4') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
   stage('step 5') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
    stage('step 6') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
    stage('step 7') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
    stage('step 8') {
             steps {
                 echo 'Deploy HelloWorld-task2'
-                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://10.0.15.133:8080/')], contextPath: null, war: '**/*.war'
             }
         }
     }
