@@ -13,7 +13,7 @@
 <body>
 <h1>Hello  </h1>
 <p>Welcome to Devops 0ct 2023</p>
-<p>This my is devops task2.</p>
+<p>This is my devops task.</p>
 <p>Practice time.</p>
 </body>
 </html>
