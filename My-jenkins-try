@@ -1,0 +1,24 @@
+pipeline {
+    agent { label "My-job" }
+    
+    stages {
+        stage('step 1') {
+            steps {
+                echo 'clone HelloWorld-task2'
+                git 'https://github.com/DShree2010/Helloworld-latest.git'
+            }
+        }
+    stage('step 2') {
+            steps {
+                echo 'Build HelloWorld-task2'
+                sh 'mvn clean package'
+            }
+        }
+    stage('step 3') {
+            steps {
+                echo 'Deploy HelloWorld-task2'
+                deploy adapters: [tomcat8(credentialsId: 'tomcat.admin', path: '', url: 'http://3.138.60.21:8080/')], contextPath: null, war: '**/*.war'
+            }
+        }
+    }
+}
