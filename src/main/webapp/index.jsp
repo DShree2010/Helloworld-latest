@@ -14,6 +14,7 @@
 <h1>Hello  </h1>
 <p>Devops 0ct 2023</p>
 <p>This my is devops task2.</p>
+<p>This my is devops task2.</p>
 </body>
 </html>
 
