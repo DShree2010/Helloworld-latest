@@ -6,15 +6,15 @@
 <title> Welcome  to devops   </title>
 <style>
   body {
-    background-color: purple ;
+    background-color: voilet ;
   }
 </style>
 </head>
 <body>
 <h1>Hello  </h1>
 <p>Welcome to Devops 0ct 2023</p>
-<p>This is my devops task.</p>
-<p>Bharathkumar.</p>
+<p>My aws devops classes.</p>
+<p>dhanushree.</p>
 </body>
 </html>
 
